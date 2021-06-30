@@ -1,4 +1,5 @@
 <?php
+
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'upload_ftp.php';
 
 $host = '';
@@ -13,3 +14,4 @@ try {
 } catch (ErrorException $e) {
     print $e->getMessage();
 }
+
